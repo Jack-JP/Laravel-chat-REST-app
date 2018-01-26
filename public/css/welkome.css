@@ -1,0 +1,22 @@
+.chatBox{}
+
+.mainChat {
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.chatItem{
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+li:nth-child(even) {background: #eee}
+li:nth-child(odd) {background: #FFF}
+
+.panel{
+  opacity: 0.5;
+  margin: 0;
+}
+
+.list-group-item{
+  padding: 0;
+}
